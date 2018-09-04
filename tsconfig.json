@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "lib": ["es5", "es6", "es7"],
+
+    "strict": true,
+    "strictFunctionTypes": false, // <-- this line
+  },
+  "include": ["./src/**/*"],
+}
